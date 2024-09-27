@@ -4,6 +4,9 @@ Jhan C. Salazar, Gustavo A. Londoño, Martha M. Muñoz, Donald B. Miles, María 
 
 For our manuscript, we ran several phylogenetic analysis and make some cool figure. Here are the scripts and data we used. I prefer to separate each analysis and figure in their own .R file, so I have multiple .R for each of those.
 
+We have to main datasets where we have the raw data, but for each analysis we had to separate each component, because CTmin, Tb, and CTmax have different number of species, so the easier things to do
+was to separate each thermal trait (we used the means) in its own file to run the phylogenetic analysis
+
 To compare the evolutioanry rate of CTmin and CTmax we used the Adams' method
 Adams_Method: This is the code we use, and the following to .R are the function you need to run the analysis
   CompareRatesAmongTraits
