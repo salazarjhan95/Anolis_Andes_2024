@@ -7,7 +7,7 @@ For our manuscript, we ran several phylogenetic analysis and make some cool figu
 ## Description
 We have to main datasets where we have the raw data, but for each analysis we had to separate each component, because CTmin, Tb, and CTmax have different number of species, so the easier things to do was to separate each thermal trait (we used the means) in its own file to run the phylogenetic analysis.
 
-# Phylogenetic tree
+## Phylogenetic tree
 This is the tree we used for all the analysis:
 
 
