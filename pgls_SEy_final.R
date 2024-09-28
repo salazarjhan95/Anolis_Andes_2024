@@ -327,9 +327,7 @@ lambda_res # phyloSig = 5.98695e-05 logL = -25.3165
 # Tb vs. Bio5
 modelo3 <- pgls(breadth ~ bio5, data=comp.data, lambda="ML")
 summary(modelo3)
-res_modelo3 <- residuals(modelo3)
-K_res <- phylosig(pruned_anolis_tb, res_modelo3, method = "K")  # Blomberg's K
-K_res #0.666226     
+res_modelo3 <- residuals(modelo3)     
 lambda_res <- phylosig(pruned_anolis_tb, res_modelo3, method = "lambda")  # Pagel's λ
 lambda_res # phyloSig = 5.98695e-05 logL = -25.3264 
 
