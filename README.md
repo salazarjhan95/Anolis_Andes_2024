@@ -1,4 +1,4 @@
-The Andes are a driver of physiological diversity in Anolis lizards
+## The Andes are a driver of physiological diversity in Anolis lizards
 
 Jhan C. Salazar, Gustavo A. Londoño, Martha M. Muñoz, Donald B. Miles, María del Rosario Castañeda
 
@@ -9,6 +9,8 @@ We have to main datasets where we have the raw data, but for each analysis we ha
 
 #Phylogenetic tree
 This is the tree we used for all the analysis:
+
+
   mcc_thinned_allruns.trees.
 
 # Adams. method
@@ -17,6 +19,7 @@ To compare the evolutioanry rate of CTmin and CTmax we used the Adams' method.
 Adams_Method: This is the code we use, and the following to .R are the function you need to run the analysis.
     
   CompareRatesAmongTraits.
+  
   findCI.
 
 # pgls.SEy
@@ -28,4 +31,5 @@ To estimate how our different variables (Elevation, Bio 1, Bio 5, Bio 6, and Te 
 To do Figure 1 and Figure S4, we used these two scripts:
   
   Figure1_Boxplot.
+  
   Figure S4_Boxplot.
