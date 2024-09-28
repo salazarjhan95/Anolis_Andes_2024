@@ -23,7 +23,7 @@ Adams_Method: This is the code we use, and the following to .R are the function 
   findCI.
 
 ## pgls.SEy
-To estimate how our different variables (Elevation, Bio 1, Bio 5, Bio 6, and Te minimum, Te average and Te maximum) affect the evolution of CTmin, CTmax and Tb, we used ran a pgls.SEy. We also ran a phylogenetic signal analysis for the residuals of each regression, that part is included in that script.
+To estimate how our different variables (Elevation, Bio 1, Bio 5, Bio 6, and Te minimum, Te average and Te maximum) affect the evolution of CTmin, CTmax and Tb, we used ran a pgls.SEy. We also ran a phylogenetic signal analysis for the residuals of each regression, that part is included in that script. Also, we ran the same analysis for each clade to have separate regressions lines in both, Figure 1 and Figure S4.
   
   pgls_SEy_final.
 
