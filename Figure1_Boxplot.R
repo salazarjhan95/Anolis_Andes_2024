@@ -50,7 +50,7 @@ bio1_ctmax <- ggplot(data, aes(x = bio1, y = ctmax, shape = clade)) +
                      breaks = c("antonii", "calimae", "chloris","chocorum", "danieli",
                                 "heterodermus", "maculigula", "maculiventris",
                                 "notopholis", "princeps", "ventrimaculatus"),
-                     labels = c("anto", "calim", "chlr","choc", "dani",
+                     labels = c("anto", "calim", "chlr","purp", "dani",
                                 "hetr", "macg", "macv",
                                 "noto", "prin", "vent")) +
 
@@ -90,7 +90,7 @@ ele_ctmax <- ggplot(data, aes(x = mid.ele, y = ctmax, shape = clade)) +
                      breaks = c("antonii", "calimae", "chloris","chocorum", "danieli",
                                 "heterodermus", "maculigula", "maculiventris",
                                 "notopholis", "princeps", "ventrimaculatus"),
-                     labels = c("anto", "cali", "chlr","choc", "dani",
+                     labels = c("anto", "cali", "chlr","purp", "dani",
                                 "hetr", "macg", "macv",
                                 "noto", "prin", "vent")) +
   
@@ -130,7 +130,7 @@ te_ctmax <- ggplot(data, aes(x = Te_ave, y = ctmax, shape = clade)) +
                      breaks = c("antonii", "calimae", "chloris","chocorum", "danieli",
                                 "heterodermus", "maculigula", "maculiventris",
                                 "notopholis", "princeps", "ventrimaculatus"),
-                     labels = c("anto", "cali", "chlr","choc", "dani",
+                     labels = c("anto", "cali", "chlr","purp", "dani",
                                 "hetr", "macg", "macv",
                                 "noto", "prin", "vent")) +
 
@@ -179,7 +179,7 @@ bio1_ctmin <- ggplot(data2, aes(x = bio1, y = ctmin, shape = clade)) +
                      breaks = c("antonii", "calimae", "chloris","chocorum", "granuliceps",
                                 "heterodermus", "maculigula", "maculiventris",
                                 "notopholis", "princeps", "ventrimaculatus"),
-                     labels = c("anto", "cali", "chlr","choc", "gran",
+                     labels = c("anto", "cali", "chlr","purp", "gran",
                                 "hetr", "macg", "macv",
                                 "noto", "prin", "vent")) +
   
@@ -217,7 +217,7 @@ ele_ctmin <- ggplot(data2, aes(x = mid.ele, y = ctmin, shape = clade)) +
                      breaks = c("antonii", "calimae", "chloris","chocorum", "granuliceps",
                                 "heterodermus", "maculigula", "maculiventris",
                                 "notopholis", "princeps", "ventrimaculatus"),
-                     labels = c("anto", "cali", "chlr","choc", "gran",
+                     labels = c("anto", "cali", "chlr","purp", "gran",
                                 "hetr", "macg", "macv",
                                 "noto", "prin", "vent")) +
   
@@ -256,7 +256,7 @@ te_ctmin <- ggplot(data2, aes(x = Te_ave, y = ctmin, shape = clade)) +
                      breaks = c("antonii", "calimae", "chloris","chocorum", "granuliceps",
                                 "heterodermus", "maculigula", "maculiventris",
                                 "notopholis", "princeps", "ventrimaculatus"),
-                     labels = c("anto", "cali", "chlr","choc", "gran",
+                     labels = c("anto", "cali", "chlr","purp", "gran",
                                 "hetr", "macg", "macv",
                                 "noto", "prin", "vent")) +
   
@@ -305,7 +305,7 @@ bio1_breadth <- ggplot(data3, aes(x = bio1, y = breadth, shape = clade)) +
                      breaks = c("antonii", "calimae", "chloris","chocorum",
                                 "heterodermus", "maculigula", "maculiventris",
                                 "notopholis", "princeps", "ventrimaculatus"),
-                     labels = c("anto", "cali", "chlr","choc",
+                     labels = c("anto", "cali", "chlr","purp",
                                 "hetr", "macg", "macv",
                                 "noto", "prin", "vent")) +
   
@@ -343,7 +343,7 @@ ele_breadth <- ggplot(data3, aes(x = mid.ele, y = breadth, shape = clade)) +
                      breaks = c("antonii", "calimae", "chloris","chocorum",
                                 "heterodermus", "maculigula", "maculiventris",
                                 "notopholis", "princeps", "ventrimaculatus"),
-                     labels = c("anto", "cali", "chlr","choc",
+                     labels = c("anto", "cali", "chlr","purp",
                                 "hetr", "macg", "macv",
                                 "noto", "prin", "vent")) +
   
@@ -381,7 +381,7 @@ te_breadth <- ggplot(data3, aes(x = te_ave, y = breadth, shape = clade)) +
                      breaks = c("antonii", "calimae", "chloris","chocorum",
                                 "heterodermus", "maculigula", "maculiventris",
                                 "notopholis", "princeps", "ventrimaculatus"),
-                     labels = c("anto", "cali", "chlr","choc",
+                     labels = c("anto", "cali", "chlr","purp",
                                 "hetr", "macg", "macv",
                                 "noto", "prin", "vent")) +
   
