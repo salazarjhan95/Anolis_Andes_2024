@@ -17,7 +17,7 @@ library(cowplot)
 
 
 
-setwd("C:/Users/jhanc/Box/Investigacion/Investigaciones/Side projects/Anolis/CT/Last_analysis/NewTree")
+setwd("")
 
 
 ###############
