@@ -40,4 +40,6 @@ To do Figure 1, Figure S4, and the map in Figure S1 we used these two scripts:
   Figure S4_Boxplot.R
   
   topo_Map_for_EJLS.R
+
+  phyloMap_for_EJLS.R
   
