@@ -14,7 +14,7 @@ This is the tree we used for all the analysis:
   mcc_thinned_allruns.trees.
 
 ## Adams. method
-To compare the evolutioanry rate of CTmin and CTmax we used the Adams' method.
+To compare the evolutionary rate of CTmin and CTmax we used the Adams' method.
   
 Adams_Method: This is the code we used, and the following two .R files are the functions you need to run the analysis.
     
