@@ -33,8 +33,11 @@ To find the best evolutionary model that explain the evolution of thermalphysiol
   phyloModel.R
 
 ## Figures
-To do Figure 1 and Figure S4, we used these two scripts:
+To do Figure 1, Figure S4, and the map in Figure S1 we used these two scripts:
   
   Figure1_Boxplot.R
   
   Figure S4_Boxplot.R
+  
+  topo_Map_for_EJLS.R
+  
