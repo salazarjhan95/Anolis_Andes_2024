@@ -523,7 +523,8 @@ png("BoxPlot_Sept25_Supp.png", height = 16, width = 24, units = "in", res = 300)
 plot_grid(bio5_breadth, temax_breadth, bio6_breadth,  temin_breadth, 
           bio5_ctmin, temax_ctmin, bio6_ctmin, temin_ctmin,
           bio5_ctmax, temax_ctmax, bio6_ctmax, temin_ctmax,
-          labels = c("(A)", "(B)", "(C)","(D)", "(E)", "(F)", "(G)", "(H)", "(I)","(J)", "(K)", "(L)"), 
+          labels = c("(A)", "(B)", "(C)","(D)", "(E)", "(F)", 
+                     "(G)", "(H)", "(I)","(J)", "(K)", "(L)"), 
           ncol = 4, nrow = 3, label_fontfamily = "serif", label_size = 23, 
           align = "h", label_x = -0.03, label_y = 1.009, label_fontface = "bold")
 
