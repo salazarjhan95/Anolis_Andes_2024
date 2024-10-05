@@ -9,7 +9,7 @@ tree <- read.nexus("mcc_thinned_allruns.trees")
 # Load a file with cordinates
 geo_data <- read.csv("")
 
-# Load a file with the species namees
+# Load a file with the species names
 species_data <- read.csv("Species_forMap.csv")
 rownames(species_data) <- species_data$Species
 
